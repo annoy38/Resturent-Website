@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans+Condensed:wght@300&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans+Condensed:wght@300&family=Redressed&family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+.main_container{
+   position: relative;
+}
+.navber{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.logo a{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 35px;
+    color: white
+}
+.navber .navber_items ul{
+    display: flex;
+    
+}
+.navber .navber_items ul li{
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+.navber .navber_items ul li a{
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+.banner_image{
+    background: url("image/allFood.jpg") no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 5;
+}
+.banner_items{
+    text-align: center;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    position: absolute;
+    top: 130px;
+}
+.banner_items h1{
+    text-transform: uppercase;
+}
+.socialLink{
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+}
+.banner_image .socialLink ul{
+    display: flex;
+}
+.banner_image .socialLink ul li{
+    margin: 0 10px;
+}
+.banner_image .socialLink ul li a img{
+    width: 25px;
+    height: 25px;
+    opacity: 5;
+}
+.middleHead{
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.middlePart{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    row-gap: 50px;
+    margin-left: 80px;
+}
+.bigBurger{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.bigH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.bigP{
+    font-family: 'Kalam', cursive;
+}
+.bigB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+    
+}
+.bigB .bigA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.bigBurger .bigM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.bigBurger:hover{
+    transform: scale(1.2);
+    opacity: 2;
+}
+.pasta{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.pastaH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.pastaP{
+    font-family: 'Kalam', cursive;
+}
+.pastaB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.pastaB .pastaA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.pasta .pastaM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.pasta:hover{
+    transform: scale(1.2);
+    opacity: 2;
+}
+.pizza{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.pizzaH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.pizzaP{
+    font-family: 'Kalam', cursive;
+}
+.pizzaB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.pizzaB .pizzaA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.pizza .pizzaM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.pizza:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.pancake{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.pancakeH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.pancakeP{
+    font-family: 'Kalam', cursive;
+}
+.pancakeB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.pancakeB .pancakeA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.pancake .pancakeM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.pancake:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.zafrani{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.zafraniH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.zafraniP{
+    font-family: 'Kalam', cursive;
+}
+.zafraniB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.zafraniB .zafraniA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.zafrani .zafraniM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.zafrani:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.biriyani{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.biriyaniH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.biriyaniP{
+    font-family: 'Kalam', cursive;
+}
+.biriyaniB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.biriyaniB .biriyaniA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.biriyani .biriyaniM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.biriyani:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.kacchi{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.kacchiH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.kacchiP{
+    font-family: 'Kalam', cursive;
+}
+.kacchiB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.kacchiB .kacchiA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.kacchi .kacchiM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.kacchi:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.khichuri{
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 2px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.khichuriH{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Kalam', cursive;
+}
+.khichuriP{
+    font-family: 'Kalam', cursive;
+}
+.khichuriB{
+    width: 190px;
+    height: 40px;
+    border-radius: 35%;
+    background-color: rgb(1, 6, 34);
+    border: none;
+}
+.khichuriB .khichuriA{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+}
+.khichuri .khichuriM{
+    width: 200px;
+    height: 190px;
+    border-radius: 25%;
+    margin-bottom: 5px;
+}
+.khichuri:hover{
+    opacity: 2;
+    transform: scale(1.2);
+}
+.footer{
+    
+    display: flex;
+    background-color: rgb(200, 196, 196);
+    height: 250px;
+    align-items: center;
+}
+.leftPart{
+    margin-top: 80px;
+    margin-left: 200px;
+    text-align: center;
+
+}
+.leftPart h2{
+    margin-bottom: 15px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.leftPart p{
+    font-family: 'Signika Negative', sans-serif;
+}
+.rightPart{
+    margin-top: 80px;
+    margin-left: 530px;
+    text-align: center;
+}
+.rightPart h2{
+    margin-bottom: 15px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.rightPart p{
+    font-family: 'Signika Negative', sans-serif;
+}
+.lastFooter{
+    margin-top: 3px;
+  background-color: rgb(211, 206, 206);
+  height: 40px;
+}
+.lastFooter p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastFooter p a{
+    color: black;
+}
